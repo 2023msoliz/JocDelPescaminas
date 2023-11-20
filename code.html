@@ -6,9 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick="crearTaulell()">Iniciar Partida</button>
+    <button onclick="iniciarPartida()">Iniciar Partida</button>
     <div id="taulell"></div>
+    <p id="p" data-mina="false"></p>
     <script src="code.js"></script>
-
+<script>
+    var p=document.getElementById("p")
+    p.dataset.mina=true;
+</script>
 </body>
 </html>
