@@ -15,18 +15,6 @@ Este es un juego de Buscaminas simple implementado en JavaScript, HTML y CSS.
 - El objetivo es abrir todas las celdas sin encontrar una mina.
 - Cada celda abierta muestra el número de minas adyacentes.
 
-## Personalizaciones
-
-Puedes personalizar la apariencia del juego ajustando los estilos en el archivo `code.js`. También puedes agregar nuevas funcionalidades según sea necesario.
-
-## Contribuciones
-
-¡Contribuciones son bienvenidas! Si encuentras errores o tienes mejoras, no dudes en crear un problema o enviar una solicitud de extracción.
-
 ## Autor
 
-[Nombre del Autor]
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para obtener más detalles.
+[Marco Antonio Soliz Lazarte]
