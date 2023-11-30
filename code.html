@@ -3,21 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        #iniciarBtn {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #iniciarBtn:hover {
+            background-color: #45a049;
+        }
+
+        #taulell {
+            text-align: center;
+        }
+    </style>
+    <title>Pescaminas</title>
 </head>
 <body>
-    <button onclick="iniciarPartida()">Iniciar Partida</button><br><br>
+    <button id="iniciarBtn" onclick="iniciarPartida()">Iniciar Partida</button><br><br>
     <div id="taulell"></div>
-    <p id="p" data-mina="false"></p>
     <script src="code.js"></script>
-    
 </body>
 </html>
-<table>
-    <tr>
-        <th>
-
-        </th>
-        <td></td>
-    </tr>
-</table>
